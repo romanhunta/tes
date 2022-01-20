@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIPAK</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="../../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href=".././/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="../../plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="../../dist/css/style.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="../../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="../../plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="../../plugins/summernote/summernote-bs4.min.css">
+  
+
+ </head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+ <!-- Navbar -->
+ <nav class="navbar-dboard  ">
+
+</nav>
+<!-- /.navbar -->
+
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <!-- Brand Logo -->
+  <a href="../../index.html" class="brand-link">
+    <span class="brand-text font-weight-normal brand-centered">SIPAK-Backend</span>
+  </a>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Sidebar user panel (optional) -->
+    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+      <div class="image">
+        <img src="../../dist/img/user.jpg" class="img-circle elevation-2" alt="User Image">
+      </div>
+      <div class="info">
+        <a href="#" class="d-block">Ahmad Admin</a>
+      </div>
+    </div>
+
+    <!-- SidebarSearch Form -->
+    <div class="form-inline">
+      <div class="input-group" data-widget="sidebar-search">
+        <input class="form-control form-control-sidebar " type="search" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+          <button class="btn btn-sidebar">
+            <i class="fas fa-search fa-fw"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar-menu">
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+              with font-awesome or any other icon font library -->
+          <li class=" menu-open">
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../../dashboard.html" class="nav-link">
+                  <i class="fas fa-circle nav-icon"></i>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="kendaraan.html" class="nav-link">
+                  <i class="fas fa-circle nav-icon"></i>
+                  <p>Kendaraan</p>
+                </a>
+              </li>
+              <li class="nav-item sub-item">
+                <a href="data_mobil.html" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Data Mobil</p>
+                </a>
+              </li>
+              <li class="nav-item sub-item line">
+                <a href="data_motor.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Data Motor</p>
+                </a>
+                <li class="nav-item">
+                  <a href="gedung.html" class="nav-link">
+                    <i class="fas fa-circle nav-icon"></i>
+                    <p>Gedung</p>
+                  </a>
+                </li>
+                <li class="nav-item line">
+                  <a href="area_parkir.html" class="nav-link">
+                    <i class="fas fa-circle nav-icon"></i>
+                    <p>Area Parkir</p>
+                  </a>
+                </li>
+                <li class="nav-item line logout">
+                  <a href="../../index.html" class="nav-link">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <p>Logout</p>
+                  </a>
+                </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /.sidebar-menu -->
+  </div>
+  <!-- /.sidebar -->
+</aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Form Daftar Kendaraan</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="kendaraan.html">Kendaraan</a></li>
+              <li class="breadcrumb-item"><a href="data_mobil.html">Data Mobil</a></li>
+              <li class="breadcrumb-item active">Daftar</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+       <div class="row mr-2" style="display: flex;">
+         <div class="ml-2">
+          <p><i class="far fa-calendar-plus" style="font-size: 40px;"></i></p>
+         </div>
+        
+        <div class="card col-md-11 ml-3">
+          <!-- /.card-header -->
+          <!-- form start -->
+          <form class="form-horizontal">
+            <div class="card-body">
+              <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-3 col-form-label">Cari Sivitas Akadmika</label>
+                <div class="col-sm-9">
+                  
+                    <div class="input-group" data-widget="sidebar-search">
+                      <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+                      <div class="input-group-append">
+                        <button class="btn btn-sidebar border">
+                          <i class="fas fa-search fa-fw"></i>
+                        </button>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Nama Lengkap</label>
+                <div class="col-sm-10">
+                  <input type="text" style="border: none;" class="form-control" id="inputPassword3" placeholder="Nama Mahasiswa / Dosen">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Asal Prodi</label>
+                <div class="col-sm-10">
+                  <input type="text" style="border: none;" class="form-control" id="inputPassword3" placeholder="Asal Prodi">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Status</label>
+                <div class="col-sm-10">
+                  <input type="text" style="border: none;" class="form-control" id="inputPassword3" placeholder="Mahasiswa / Dosen">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Jenis Kendaraan</label>
+                <div class="col-sm-10">
+                  <div style="display: flex;">
+                   <div class="form-check mt-1">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                     <label class="form-check-label" for="flexRadioDefault1">
+                       Motor
+                     </label>
+                   </div>
+                   <div class="form-check ml-3 mt-1">
+                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                     <label class="form-check-label" for="flexRadioDefault2">
+                       Mobil
+                     </label>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Nopol</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword3" placeholder="">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Merk</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control" id="inputPassword3" placeholder="">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Upload STNK</label>
+                <div class="col-sm-9">
+                  <div class="form-group">
+
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="customFile">
+                      <label class="custom-file-label" for="customFile">Choose file</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <center>
+                <button type="submit" class="btn btn-info">Daftar</button>
+              </center>
+              
+              
+            </div>
+            <!-- /.card-body -->
+            <div class="">
+            
+             
+             
+            </div>
+            <!-- /.card-footer -->
+          </form>
+        </div>
+      </div>
+      </div>
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+      <p>Created with <i class="fa">&#xf0f4;</i> By WeebWeb</p>
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright © 2022</strong> <a href="https://www.nurulfikri.ac.id/">Sekolah Tinggi Teknologi Terpadu Nurul Fikri.</a> All rights reserved.
+  </footer>
+</div>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,281 @@
+/* Landing Page */
+
+body {
+    overflow-x: hidden; 
+
+}
+
+.navbar {
+    height: 9rem;
+    padding-bottom: 0rem;
+    margin-bottom: -3rem;
+    overflow: hidden;
+    border-bottom: 4px solid black;
+}
+
+.navbar-nav {
+    margin-right: -5rem;
+}
+
+.index-nav{
+    display: block;
+    padding: 0 5px;
+    font-size: 1.2em;
+}
+
+.index-nav a{
+    color: white !important;
+}
+
+.carousel-caption {
+    background-color: #0099ff;
+    opacity: 100%;
+}
+
+.logo {
+    margin-top: 0.5rem;
+}
+
+.logo > img {
+    width: 5rem;
+    height: auto;
+}
+
+.logo > p {
+    font-family: open sans;
+}
+
+.index-jumbotron {
+    padding-top: 2rem;
+    background-color: #e2edff;
+}
+.index-jumbotron h1, .index-jumbotron p {
+    padding: 1rem 4rem;
+}
+
+.index-space {
+    margin-top: 4rem;
+}
+
+.index-button {
+    padding: 0rem 4rem;
+}
+
+.index-h1 {
+	font-size: 2.75rem;
+	line-height: 3.5rem;
+	letter-spacing: -0.7px;
+}
+
+.btn-solid-lg {
+	display: inline-block;
+	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
+	border: 1px solid #0099ff;
+	border-radius: 32px;
+	background-color: #0099ff;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 0.975rem;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+	border: 1px solid #0099ff;
+	background-color: transparent;
+	color: #0099ff; /* needs to stay here because of the color property of a tag */
+	text-decoration: none;
+}
+
+.content-wrapper {
+    margin-top: 3rem;
+}
+
+/* <-- Landing Page --> */
+
+/* Login */
+
+.red{
+    border: 1px solid red;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.raib {
+    opacity: 0;
+}
+
+.login-box {
+    width: 540px;
+}
+
+.login-validation1, .login-validation2 {
+    margin-left: 5px;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+/* <-- Login --> */
+
+
+/* Sidebar */
+
+.navbar-dboard {
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: -3rem;
+  }
+
+.brand-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.brand-text {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+.brand-link {
+    border-bottom: none !important;
+    padding: 0.8125rem 0.5rem 0rem;
+}
+
+.image > img {
+    width: 2.8rem;
+    margin-left: -0.4125rem;
+    margin-right: 0.8125rem;
+}
+
+.info > a {
+    margin-top: 2px;
+    font-size: 1.3rem;
+}
+
+[class*="sidebar-dark"] .user-panel {
+    border-bottom: none;
+}
+
+.user-panel {
+    margin-bottom: -0.2rem !important;
+}
+
+.form-inline {
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #4f5962;
+}
+
+.sidebar-menu {
+    margin-top: 0.8rem;
+    padding: 0.4125rem 0rem;
+    border-top: 1px solid #4f5962;
+}
+
+.sub-item i {
+    opacity: 0;
+}
+
+.line {
+    padding-bottom: 0.2315rem;
+    border-bottom: 1px solid #4f5962;
+}
+
+.logout p {
+    padding-left: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+/* End of Sidebar */
+
+/* Content */
+
+.btn-form {
+    width: 55px;
+    height: 40px;
+    margin-top: -3.3rem;
+    margin-left: -0.7rem;
+    position: absolute;
+    opacity: 0%;
+}
+
+.btn-form-kendaraan {
+    width: 55px;
+    height: 40px;
+    margin-left: -0.6rem;
+    position: absolute;
+    opacity: 0%;
+}
+
+.modal {
+    transform: translate(5%, 0%);
+}
+
+.input-row {
+    margin-left: 2rem;
+}
+
+.modal-body table,
+.modal-body form {
+  width: 500px;
+  margin: 20px auto;
+}
+.modal-body table {
+  border-collapse: collapse;
+  text-align: center;
+}
+.modal-body table td,
+.modal-body table th {
+  border: solid 1px black;
+}
+.modal-body label,
+.modal-body input {
+  display: block;
+  margin: 10px 0;
+  font-family: roboto, arial, helvetica, sans-serif;
+  font-size: 17px;
+}
+.modal-body form button {
+    margin-right: 40px;
+    margin-top: 40px;
+    float: right;
+}
+
+
+.modal-body input {
+    display: block;
+    font-size: 17px;
+  }
+
+.modal-body button {
+  display: block;
+}
+
+.deleteBtn {
+    background-color: transparent;
+}
+
+.input-row select {
+    margin-top: 0.5rem;
+}
+
+/* end of Content */

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registrasi Kendaraan | STT-NF</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="../../dist/css/style.css">
+</head>
+
+<body class="layout-top-nav">
+  <div class="wrapper">
+
+    <!-- Mavbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-lg">
+          <a class="navbar-brand logo " href="../../index.html">
+              <img src="../../dist/img/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+              <p>SIPAK STTNF</p>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item index-nav">
+                      <a class="nav-link" aria-current="page" href="../../index.html">Home</a>
+                  </li>
+                  <li class="nav-item index-nav">
+                      <a class="nav-link" href="../../index.html#berita">Berita</a>
+                  </li>
+                  <li class="nav-item index-nav">
+                      <a class="nav-link a-index" href="registrasi_kendaraan.html">Registrasi Kendaraan</a>
+                  </li>
+                  <li class="nav-item index-nav">
+                      <a class="nav-link" href="login.html">Login</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+    <!-- Mavbar End -->
+
+    <!-- Content Wrapper. Contains page content -->
+    <div style="background-color: #e9ecef;" class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <div class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-12">
+              <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                <li class="breadcrumb-item active">Login</li>
+              </ol>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+
+        </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.content-header -->
+
+      <!-- Main content -->
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="hold-transition">
+              <div class="login-box m-auto mt-5">
+                <!-- /.login-logo -->
+                <div class="card card-outline card-primary">
+                  <div class="card-header text-center">
+                    <h1 class="h1"><b>LOGIN</b></h1>
+                  </div>
+                  <div class="card-body">
+                    <p class="login-box-msg">Sign in untuk cek lahan parkir</p>
+
+                    <form>
+                      <div class="input-group mb-3">
+                        <input type="name" class="form-control" placeholder="Username" name="nama">
+                        <div class="input-group-append">
+                          <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="login-validation1 error raib">Username tidak boleh kosong</div>    
+
+                      <div class="input-group mb-3">
+                        <input type="password" class="form-control" placeholder="Password" name="password">
+                        <div class="input-group-append">
+                          <div class="input-group-text">
+                            <span class="fas fa-lock "></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="login-validation2 error raib">Password tidak boleh kosong</div>    
+
+                      <div class="row">
+                        <div class="col-8">
+                          <div class="icheck-primary">
+                            <a href="registrasi_user.html">Registrasi User</a>
+
+                          </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-4">
+                          <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                        </div>
+                        <!-- /.col -->
+                      </div>
+                    </form>
+                    <!-- /.social-auth-links -->
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div><!-- /.container-fluid -->
+      </div>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+      <!-- Control sidebar content goes here -->
+      <div class="p-3">
+        <h5>Title</h5>
+        <p>Sidebar content</p>
+      </div>
+    </aside>
+    <!-- /.control-sidebar -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center p-2">
+      <p>Created with <i style="font-size:24px" class="fa">&#xf0f4;</i> By WeebWeb</p>
+    </footer>
+    <!-- Footer End -->
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- REQUIRED SCRIPTS -->
+  <script src="../../dist/js/login.js"></script>
+
+  <!-- jQuery -->
+  <script src="../../plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="../../dist/js/adminlte.min.js"></script>
+</body>
+
+</html>
